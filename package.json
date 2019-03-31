@@ -1,6 +1,6 @@
 {
   "name": "generator-java-class",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple java class generator (Main class, POJO, JavaBean, etc)",
   "homepage": "https://github.com/danielbrutti/generator-java-class",
   "author": {
@@ -21,24 +21,24 @@
   ],
   "devDependencies": {
     "coveralls": "^3.0.3",
-    "eslint": "^5.9.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-config-xo": "^0.25.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "husky": "^1.2.0",
-    "jest": "^23.5.0",
-    "lint-staged": "^8.1.0",
-    "prettier": "^1.15.2",
-    "yeoman-assert": "^3.1.0",
-    "yeoman-test": "^1.7.0"
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-xo": "^0.26.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "husky": "^1.3.1",
+    "jest": "^24.5.0",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^2.0.0"
   },
   "engines": {
     "npm": ">= 4.0.0"
   },
   "dependencies": {
-    "yeoman-generator": "^2.0.1",
-    "chalk": "^2.1.0",
-    "yosay": "^2.0.1"
+    "yeoman-generator": "^3.2.0",
+    "chalk": "^2.4.2",
+    "yosay": "^2.0.2"
   },
   "jest": {
     "testEnvironment": "node"
